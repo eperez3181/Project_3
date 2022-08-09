@@ -10,7 +10,7 @@
 
 
 ## Background
-The purpose of our project is to create a dashboard for Global COVID-19 cases and deaths, from December 31, 2019-PRESENT![image](https://user-images.githubusercontent.com/102872511/183553755-0fd87706-445a-4775-9e68-b9e1e605ef59.png
+The purpose of our project is to create a dashboard for Global COVID-19 cases and deaths, from December 31, 2019-PRESENT.
 
 
 ## Sources
