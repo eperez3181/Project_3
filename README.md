@@ -25,14 +25,9 @@ World Health Organization
 
 State COVID-19 Data and Policy Actions
 (https://www.kff.org/coronavirus-covid-19/issue-brief/state-covid-19-data-and-policy-actions/#)
-![image](https://user-images.githubusercontent.com/102872511/183554173-a554b1ca-c147-446d-b346-7ba012406a63.png)
 
 
-## TRANSFORM
-In this phase, we transformed and consolidated our raw data for our intended analytical use. This phase consisted of:
-- Filtering, cleansing and de-duplicating the data
-- Changing column headers for consistency, editing text strings, and reformatting columns.
-- Using pandas.melt to reformat some of our tables to match the schema of the target data warehouse.
+
 
 Examples below:
 ![alt text](images/transform_annual_inflation.PNG)
@@ -40,29 +35,20 @@ Examples below:
 
 ![alt text](images/transform_annual_inflation.PNG)
 
-## LOAD
-### Schema
 
-Once our data frames were cleaned and consolidated, we had the schema we needed to create our database in pgAdmin. We used that schema to ensure appropriate dimensions when creating our tables for each of our original five data frames. 
 
-![alt text](images/schema.PNG)
+## Our Initial Webpage
 
-After using pandas to create our database connection in Jupyter, we loaded each data frame into our database, ensuring to replace instead of append. We confirmed our data had been imported accurately by querying each table in our Jupyter notebook.
+(https://paozmoreno.github.io/Project_3/flask/templates/#)
 
-![alt text](images/connection_and_loading.PNG)
 
-## pgAdmin
-Finally, back in pgAdmin, we joined the appropriate tables for our intended analytical use. 
+![alt text](readmeimages/initialpage.PNG)
 
-We joined the income and annual_inflation tables to analyze the historical relationship between inflation rates and income levels, by country.
+## Dashboard
 
-![alt text](images/join_income_annual_inflation.PNG)
+![alt text](readmeimages/dashboard.PNG)
 
-To take a closer look at the U.S. specifically, we combined the usa_monthly_cpi and us_inflation_hist. This new table gives us insight into the U.S. inflation rate in relation to major world events in the last century. 
+## Leaflet Map
 
-![alt text](images/join_monthly_us_inflation_hist.PNG)
-
-Finally, we combined the income and unemployment tables to analyze global inflation rates, gdp deflator indices, income levels and unemployment rates, by country from 1970-2021 (see below).
-
-![alt text](images/join_income_unemp.PNG)
+![alt text](readmeimages/map.PNG)
 
