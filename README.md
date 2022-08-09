@@ -1,7 +1,7 @@
 # Project 3: Global Covid Cases and Deaths Dashboard
 ![alt text](readmeimages/dashboard.png)
 * https://paozmoreno.github.io/Project_3/
-* https://paozmoreno.github.io/Project_3/leaflet/
+
 
 
 ##### Team Members: Estela Perez, Paola Moreno, Ramiro Cervantes, Osamu Adler
