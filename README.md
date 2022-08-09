@@ -29,26 +29,18 @@ State COVID-19 Data and Policy Actions
 
 
 
-Examples below:
-![alt text](images/transform_annual_inflation.PNG)
-
-
-![alt text](images/transform_annual_inflation.PNG)
-
-
-
 ## Our Initial Webpage
 
 (https://paozmoreno.github.io/Project_3/flask/templates/#)
 
 
-![alt text](readmeimages/initialpage.PNG)
+![alt text](readmeimages/initialpage.png)
 
 ## Dashboard
 
-![alt text](readmeimages/dashboard.PNG)
+![alt text](readmeimages/dashboard.png)
 
 ## Leaflet Map
 
-![alt text](readmeimages/map.PNG)
+![alt text](readmeimages/map.png)
 
